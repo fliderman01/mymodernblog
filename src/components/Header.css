@@ -1,0 +1,71 @@
+header {
+  background-image: linear-gradient(
+    to right,
+    hsl(13, 100%, 72%),
+    hsl(353, 100%, 62%)
+  );
+  border-bottom-left-radius: 4em;
+  margin-bottom: 4em;
+  padding: 0 2.7em;
+}
+/* NAV SECTION */
+nav > h3 {
+  font-size: 24px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1em;
+}
+/* toggle burger menu */
+.hide {
+  display: none;
+}
+/* REST OF THE HEADER */
+.register {
+  padding: 2em 0 8em 0;
+}
+.register > button {
+  font-size: 19px;
+  background: rgba(0, 0, 0, 0);
+  padding: 0.5em;
+  color: white;
+  border-radius: 2em;
+  border: 1px solid white;
+  margin: 0 0.4em;
+}
+.register > button:hover {
+  color: hsl(353, 100%, 62%);
+  background-color: white;
+  cursor: pointer;
+}
+
+header > h1 {
+  margin-top: 4em;
+}
+
+header > p {
+  margin: 1em 0;
+}
+@media screen and (min-width: 425px) {
+  nav {
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+  }
+  .headline {
+    display: flex;
+  }
+  .headline > ul {
+    display: flex;
+    margin: 0 7em;
+  }
+  .headline > ul > li {
+    margin: 0 .5em;
+  }
+  .burgerBtn {
+    display: none;
+  }
+}

@@ -1,0 +1,16 @@
+article {
+  margin: 3em 2em;
+}
+h2 {
+  margin: 1em 0;
+  color: hsl(208, 49%, 24%);
+}
+
+h2:hover {
+  color: hsl(209, 67%, 16%);
+  cursor: pointer;
+}
+
+article > p {
+  color: hsl(237, 17%, 21%);
+}
