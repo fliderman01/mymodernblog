@@ -1,0 +1,15 @@
+.title {
+  color: hsl(208, 49%, 24%);
+  /* font-size: 29px; */
+}
+.title:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+.title:visited {
+  color: hsl(208, 49%, 24%);
+}
+
+.h1Head {
+  margin: 1em 0;
+}

@@ -1,0 +1,24 @@
+/* entire post */
+.postArticle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.postArticle > h1 {
+  color: hsl(208, 49%, 24%);
+}
+/* post paragraphs */
+.postParas {
+  max-width: 48em;
+}
+/* go to main page button */
+#goBack {
+  color: hsl(208, 49%, 24%);
+  text-align: start;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#goBack:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}

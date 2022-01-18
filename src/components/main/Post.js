@@ -1,11 +1,19 @@
 import React from 'react';
 import '../../style.css';
+import './Post.css';
 
-export default function Post(props, index ) {
+export default function Post(props) {
   return (
     <>
-      <h2 onClick={() => props.openHeader(props.index)}>{props.post.title}</h2>
-      {console.log(index, 'fromChild')}
+      <h1 className='h1Head'>
+        <a
+          className="title"
+          href="#top"
+          onClick={() => props.openHeader(props.index)}
+        >
+          {props.post.title}
+        </a>
+      </h1>
       <h4>By: {props.post.author}</h4>
       <img src={props.post.image} alt="post" width="330px" />
       <p>{props.post.text}</p>
