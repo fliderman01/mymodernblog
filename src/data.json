@@ -1,0 +1,28 @@
+{
+  "blogPosts": [
+    {
+      "title": "State of the Art Infrastructure",
+      "author": "Tim Burns Lee",
+      "image": "https://www.maxpixel.net/static/photo/1x/Building-Structure-Infrastructure-Architecture-2589447.jpg",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio quasi magnam rerum eum, fugit atque ad alias ab, eius cum, veritatis repellat. Atque!"
+    },
+    {
+      "title": "Free, Open, Simple",
+      "author": "Sun Mi",
+      "image": "https://www.maxpixel.net/static/photo/1x/Infrastructure-Architecture-Building-Structure-2573390.jpg",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tenetur fuga saepe dolores ullam provident hic natus eaque mollitia quod porro reprehenderit tempora quaerat, assumenda corrupti possimus vero nemo consectetur cum voluptatum repellat iste?"
+    },
+    {
+      "title": "Designed for the Future",
+      "author": "Tim Burns Lee",
+      "image": "https://www.maxpixel.net/static/photo/1x/Scifi-Futuristic-Wallpaper-Tunnel-Sci-fi-4520819.jpg",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio quasi magnam rerum eum, fugit atque ad alias ab, eius cum, veritatis repellat. Atque! saepe dolores ullam provident hic natus eaque mollitia quod porro reprehenderit tempora quaerat, assumenda corrupti possimus vero nemo consectetur cum voluptatum repellat iste?"
+    },
+    {
+      "title": "Powerful tooling",
+      "author": "John Doe",
+      "image": "https://i.dailymail.co.uk/i/pix/2011/09/07/article-2034812-0DC235B600000578-909_634x858.jpg",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio quasi magnasimus vero nemo consectetur cum voluptatum repellat iste?"
+    }
+  ]
+}

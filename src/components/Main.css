@@ -14,3 +14,19 @@ h2:hover {
 article > p {
   color: hsl(237, 17%, 21%);
 }
+
+article > h4 {
+  color: black;
+  float: left;
+}
+@media screen and (min-width: 420px) {
+  article > h4 {
+    float: none;
+    margin-bottom: 1em;
+  }
+  /* main > article:nth-child(odd) {
+    float: left;
+    border: 2px solid purple;
+  } */
+}
+/* img yoveli meore bavshvs float right mieci */
