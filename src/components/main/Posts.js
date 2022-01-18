@@ -7,12 +7,8 @@ export default function App(props) {
   // import data from data.json
   const blogPosts = data.blogPosts;
   const [headerClick, setHeaderClick] = useState('');
+  console.log(headerClick, 'Hclick')
 
-  const openHeader = (articleNum) => {
-    setHeaderClick(articleNum);
-    // later MyBlog should set headerClick to '' (empty) or false
-    console.log('hi');
-  };
   return (
     <>
       {headerClick ? (
@@ -29,7 +25,7 @@ export default function App(props) {
               key={index}
               index={index}
               post={post}
-              openHeader={openHeader}
+              openHeader={articleNum=>console.log(articleNum, "parentNum")}
             />
           ))}
         </article>
