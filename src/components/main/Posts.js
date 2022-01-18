@@ -9,15 +9,19 @@ export default function Posts(props) {
   const [headerClick, setHeaderClick] = useState('');
   console.log(headerClick, 'Hclick');
 
+  const openHeader = (articleNum) => {
+    setHeaderClick(articleNum);
+  };
+console.log(blogPosts.fullTxt, 'defined?')
   return (
     <>
       {headerClick ? (
         <article>
-          <h1>{blogPosts[headClick].title}</h1>
-          <h4>{blogPosts[headClick].author}</h4>
-          <img src={blogPosts[headClick].image} alt="post" />
-          <p>{blogPosts[headClick].text}</p>
-          {blogPosts.fullTxt.map(paras=>(
+          <h1>{blogPosts[headerClick].title}</h1>
+          <h4>{blogPosts[headerClick].author}</h4>
+          <img src={blogPosts[headerClick].image} alt="post" />
+          <p>{blogPosts[headerClick].text}</p>
+          {blogPosts.fullTxt.map((paras) => (
             <p>{paras}</p>
           ))}
         </article>
@@ -28,7 +32,7 @@ export default function Posts(props) {
               key={index}
               index={index}
               post={post}
-              openHeader={(articleNum) => console.log(articleNum, 'parentNum')}
+              openHeader={openHeader}
             />
           ))}
         </article>
