@@ -12,7 +12,7 @@ export default function Posts(props) {
   const openHeader = (articleNum) => {
     setHeaderClick(articleNum);
   };
-console.log(blogPosts.fullTxt, 'defined?')
+  console.log(blogPosts.fullTxt, 'defined?');
   return (
     <>
       {headerClick ? (
