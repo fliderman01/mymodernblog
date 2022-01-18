@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <h3>My Blog</h3>
+        <h3>MyBlog</h3>
         <div className="headline">
           <ul className={burger}>
             <li>
@@ -36,7 +36,16 @@ export default function Header() {
           </ul>
         </div>
         <button className="burgerBtn" onClick={burgerMenu}>
-          Burger
+          <img
+            src={
+              burger
+                ? 'https://static.thenounproject.com/png/204478-200.png'
+                : 'https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/512x512/plain/navigate_cross.png'
+            }
+            alt="burger menu"
+            width="25px"
+            height="20px"
+          />
         </button>
       </nav>
 

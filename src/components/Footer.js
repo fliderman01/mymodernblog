@@ -5,7 +5,7 @@ import './Footer.css';
 export default function Footer() {
   return (
     <footer>
-      <h3>My Blog</h3>
+      <h3>MyBlog</h3>
       <ul>
         <li>Product</li>
         <li>

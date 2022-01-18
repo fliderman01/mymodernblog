@@ -12,6 +12,11 @@ header {
 nav > h3 {
   font-size: 24px;
 }
+.headline > ul {
+  position: relative;
+  top: 2em;
+  left: -15%;
+}
 
 nav {
   display: flex;
@@ -34,7 +39,7 @@ nav {
   color: white;
   border-radius: 2em;
   border: 1px solid white;
-  margin: 0 0.4em;
+  margin: .4em 0.4em;
 }
 .register > button:hover {
   color: hsl(353, 100%, 62%);
