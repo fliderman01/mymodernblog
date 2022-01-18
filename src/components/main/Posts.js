@@ -3,11 +3,11 @@ import '../../style.css';
 import data from '../../data.json';
 import Post from './Post';
 
-export default function App(props) {
+export default function Posts(props) {
   // import data from data.json
   const blogPosts = data.blogPosts;
   const [headerClick, setHeaderClick] = useState('');
-  console.log(headerClick, 'Hclick')
+  console.log(headerClick, 'Hclick');
 
   return (
     <>
@@ -16,7 +16,10 @@ export default function App(props) {
           <h1>{blogPosts[headClick].title}</h1>
           <h4>{blogPosts[headClick].author}</h4>
           <img src={blogPosts[headClick].image} alt="post" />
-          <p>{blogPosts[headClick].fullTxt}</p>
+          <p>{blogPosts[headClick].text}</p>
+          {blogPosts.fullTxt.map(paras=>(
+            <p>{paras}</p>
+          ))}
         </article>
       ) : (
         <article>
@@ -25,7 +28,7 @@ export default function App(props) {
               key={index}
               index={index}
               post={post}
-              openHeader={articleNum=>console.log(articleNum, "parentNum")}
+              openHeader={(articleNum) => console.log(articleNum, 'parentNum')}
             />
           ))}
         </article>
