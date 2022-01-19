@@ -32,7 +32,7 @@ export default function Posts(props) {
           <br />
           {blogPosts[headerClick].text.map((para) => (
             <>
-              <p key={Math.random() * 999} className="postParas">
+              <p key={blogPosts.index} className="postParas">
                 {para}
               </p>
               <br />
