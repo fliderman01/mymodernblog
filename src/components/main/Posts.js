@@ -25,14 +25,12 @@ export default function Posts(props) {
     <>
       {showPost ? (
         <article className="postArticle">
-          <h1>{blogPosts[headerClick].title}</h1>
+          <h1 id="start">{blogPosts[headerClick].title}</h1>
           <br />
           <h4>By: {blogPosts[headerClick].author}</h4>
           <img src={blogPosts[headerClick].image} alt="post" />
           <br />
-          <p className="postParas">{blogPosts[headerClick].text}</p>
-          <br />
-          {blogPosts[headerClick].fullTxt.map((para) => (
+          {blogPosts[headerClick].text.map((para) => (
             <>
               <p key={Math.random() * 999} className="postParas">
                 {para}
@@ -40,7 +38,7 @@ export default function Posts(props) {
               <br />
             </>
           ))}
-          <a href="#top" id="goBack" onClick={mainPg}>
+          <a href="#h1Head" id="goBack" onClick={mainPg}>
             go back to main page
           </a>
         </article>

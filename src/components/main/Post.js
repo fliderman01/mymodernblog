@@ -5,10 +5,10 @@ import './Post.css';
 export default function Post(props) {
   return (
     <>
-      <h1 className='h1Head'>
+      <h1 id='h1Head' className="h1Head">
         <a
           className="title"
-          href="#top"
+          href="#start"
           onClick={() => props.openHeader(props.index)}
         >
           {props.post.title}
@@ -16,7 +16,7 @@ export default function Post(props) {
       </h1>
       <h4>By: {props.post.author}</h4>
       <img src={props.post.image} alt="post" width="330px" />
-      <p>{props.post.text}</p>
+      <p>{props.post.text[0]}</p>
     </>
   );
 }
