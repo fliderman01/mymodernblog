@@ -39,7 +39,7 @@ nav {
   color: white;
   border-radius: 2em;
   border: 1px solid white;
-  margin: .4em 0.4em;
+  margin: 0.4em 0.4em;
 }
 .register > button:hover {
   color: hsl(353, 100%, 62%);
@@ -54,10 +54,10 @@ header > h1 {
 header > p {
   margin: 1em 0;
 }
+
 @media screen and (min-width: 425px) {
   nav {
     display: flex;
-    /* align-items: flex-start; */
     justify-content: space-between;
   }
   .headline {
@@ -68,7 +68,7 @@ header > p {
     margin: 0 7em;
   }
   .headline > ul > li {
-    margin: 0 .5em;
+    margin: 0 0.5em;
   }
   .burgerBtn {
     display: none;

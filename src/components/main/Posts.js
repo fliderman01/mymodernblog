@@ -20,19 +20,9 @@ export default function Posts(props) {
   const getData = () => {
     const data = blogPosts;
     const sliced = data.slice(offset, offset + perPage);
-    const display = sliced.map(
-      (post, index) => (
-        console.log(post.id),
-        (
-          <Post
-            key={Math.random() * 999}
-            index={post.id}
-            post={post}
-            openHeader={openHeader}
-          />
-        )
-      )
-    );
+    const display = sliced.map((post, index) => (
+      <Post key={index} index={index} post={post} openHeader={openHeader} />
+    ));
     setPosts(display);
     setPageCount(Math.ceil(data.length / perPage));
   };
@@ -49,7 +39,7 @@ export default function Posts(props) {
 
   // opens individual post
   const openHeader = (articleNum) => {
-    setHeaderClick(articleNum);
+    setHeaderClick(articleNum + offset); // index of current post
     setShowPost(true);
   };
   // go back to main page

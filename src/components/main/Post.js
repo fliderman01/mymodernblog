@@ -9,7 +9,7 @@ export default function Post(props) {
         <a
           className="title"
           href="#start"
-          onClick={() => props.openHeader(props.post.id)}
+          onClick={() => props.openHeader(props.index)}
         >
           {props.post.title}
         </a>

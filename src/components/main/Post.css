@@ -1,6 +1,5 @@
 .title {
   color: hsl(208, 49%, 24%);
-  /* font-size: 29px; */
 }
 .title:hover {
   text-decoration: none;
