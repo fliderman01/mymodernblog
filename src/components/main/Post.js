@@ -5,7 +5,7 @@ import './Post.css';
 export default function Post(props) {
   return (
     <>
-      <h1 id='h1Head' className="h1Head">
+      <h1 id="h1Head" className="h1Head">
         <a
           className="title"
           href="#start"
