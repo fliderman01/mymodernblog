@@ -21,7 +21,7 @@ export default function Posts(props) {
     const data = blogPosts;
     const sliced = data.slice(offset, offset + perPage);
     const display = sliced.map((post, index) => (
-      <Post key={index} index={index} post={post} openHeader={openHeader} />
+      <Post key={index+offset} index={index} post={post} openHeader={openHeader} />
     ));
     setPosts(display);
     setPageCount(Math.ceil(data.length / perPage));

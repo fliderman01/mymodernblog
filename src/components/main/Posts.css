@@ -7,6 +7,9 @@
 .postArticle > h1 {
   color: hsl(208, 49%, 24%);
 }
+.postArticle > img {
+  width: 320px;
+}
 /* post paragraphs */
 .postParas {
   max-width: 48em;
@@ -51,4 +54,10 @@
 .pagination > li > a {
   margin: -0.3em;
   padding: 1em; /* increase clickable area */
+}
+
+@media screen and (min-width: 420px) {
+  .postArticle > img {
+    width: auto;
+  }
 }
