@@ -1,7 +1,6 @@
 {
   "blogPosts": [
     {
-      "id": 7,
       "title": "State of the Art Infrastructure",
       "author": "Tim Burns Lee",
       "image": "https://www.maxpixel.net/static/photo/1x/Building-Structure-Infrastructure-Architecture-2589447.jpg",
@@ -12,7 +11,6 @@
       ]
     },
     {
-      "id": 6,
       "title": "Free, Open, Simple",
       "author": "Sun Mi",
       "image": "https://www.maxpixel.net/static/photo/1x/Infrastructure-Architecture-Building-Structure-2573390.jpg",
@@ -25,7 +23,6 @@
       ]
     },
     {
-      "id": 5,
       "title": "Designed for the Future",
       "author": "Tim Burns Lee",
       "image": "https://www.maxpixel.net/static/photo/1x/Scifi-Futuristic-Wallpaper-Tunnel-Sci-fi-4520819.jpg",
@@ -37,7 +34,6 @@
       ]
     },
     {
-      "id": 4,
       "title": "Powerful tooling",
       "author": "John Doe",
       "image": "https://i.dailymail.co.uk/i/pix/2011/09/07/article-2034812-0DC235B600000578-909_634x858.jpg",
@@ -51,7 +47,6 @@
       ]
     },
     {
-      "id": 3,
       "title": "The post-digital people",
       "author": "Nexus pynchon",
       "image": "https://live.staticflickr.com/7276/8161713926_f015e1946d_z.jpg",
@@ -63,7 +58,6 @@
       ]
     },
     {
-      "id": 2,
       "title": "Technology twilight",
       "author": "Kristen vampirson",
       "image": "https://live.staticflickr.com/2374/2129884284_5c260591a8_b.jpg",
@@ -76,7 +70,6 @@
       ]
     },
     {
-      "id": 1,
       "title": "The next web",
       "author": "William gibson",
       "image": "https://www.maxpixel.net/static/photo/1x/Information-Technology-Network-Web-Smarthome-Woman-4877960.jpg",

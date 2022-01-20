@@ -22,11 +22,11 @@ export default function Posts(props) {
     const sliced = data.slice(offset, offset + perPage);
     const display = sliced.map(
       (post, index) => (
-        console.log(post.title),
+        console.log(post.id),
         (
           <Post
             key={Math.random() * 999}
-            index={index}
+            index={post.id}
             post={post}
             openHeader={openHeader}
           />
