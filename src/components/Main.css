@@ -5,6 +5,9 @@ h2 {
   margin: 1em 0;
   color: hsl(208, 49%, 24%);
 }
+h2 > a:link {
+  color: hsl(209, 67%, 16%);
+}
 
 h2:hover {
   color: hsl(209, 67%, 16%);
@@ -24,9 +27,4 @@ article > h4 {
     float: none;
     margin-bottom: 1em;
   }
-  /* main > img:nth-child(2n) {
-    float: left;
-    border: 2px solid purple;
-  } */
 }
-/* img yoveli meore bavshvs float right mieci */
